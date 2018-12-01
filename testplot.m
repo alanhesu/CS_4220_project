@@ -4,11 +4,11 @@ clear;
 % file names
 %%%%%%%%%%%%
 % Parameters to set
-wl = 5000; % Workload
+wl = 30000; % Workload
 topology = '3311'; 
 numNodes = 8; % Total number of nodes = #Apache + #Tomcat + #CJDBC + #MySQL
 isRW = 1; % Use RW or RO results
-impath = 'Figures/5000wl-6/'; % MAKE SURE YOU CHANGE THIS!!! Filepath to save images to
+impath = 'Figures/5000wl-7/'; % MAKE SURE YOU CHANGE THIS!!! Filepath to save images to
 %%%%%%%%%%%%
 
 if isRW
